@@ -1,5 +1,5 @@
-export class ButtonApi {
-    test() {
+export class Api {
+    clickHandler() {
       alert('You clicked me');
     }
 }

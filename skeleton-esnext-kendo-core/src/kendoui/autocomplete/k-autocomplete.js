@@ -1,4 +1,4 @@
-export class BasicUse {
+export class Autocomplete {
   items = [
     'Charles',
     'Jedd',

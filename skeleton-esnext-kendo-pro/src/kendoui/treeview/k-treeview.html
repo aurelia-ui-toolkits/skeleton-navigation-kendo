@@ -1,0 +1,19 @@
+<template>
+    <require from="./k-treeview.css"></require>
+    <section>
+        <br><br>
+        <div id="example">
+            <div>
+                <div>
+                    <h4>Check nodes</h4>
+                    <div ak-treeview="k-data-source.bind: data;
+                                      k-checkboxes.bind: { checkChildren : true};
+                                      k-widget.bind: treeview"
+                                      k-on-check.delegate="onCheck()"
+                                      id="treeview" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
